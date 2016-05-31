@@ -30,3 +30,15 @@ git push feat-README-1 // Pushing to a specific brach or you can simply use
 git push origin master // or more simply
 git push 
 ```
+
+## Working with Branch and Merging Branches
+
+### Creating a new branch
+`git branch your_new_branch_name`
+`git checkout your_new_branch_name` // moves to the newly created branch
+
+#### Modify/add your files now
+`git add --all` or just simply `git add your_files_those_are_added_or_modified`
+`git commit -m "New feature added blah! blah! blah!"`
+`git push origin your_new_brach_name`
+
