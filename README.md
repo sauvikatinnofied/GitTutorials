@@ -35,6 +35,7 @@ git push
 
 ### Creating a new branch
 `git branch your_new_branch_name`
+
 `git checkout your_new_branch_name` // moves to the newly created branch
 
 #### Modify/add your files now
