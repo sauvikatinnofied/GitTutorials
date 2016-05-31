@@ -42,3 +42,22 @@ git push
 `git commit -m "New feature added blah! blah! blah!"`
 `git push origin your_new_brach_name`
 
+
+#### Merging Two Branches
+
+`git checkout your_merge_to_branch`
+`git merge your_merger_from_branch`
+
+#### EXAMPLE
+Suppose you have new feature in *feature-2* branch. You are going to add them in *master*. So your merging commands are
+`git checkout master`
+`git merge feature-2`
+
+
+#### Pushing changes to remote
+
+`git add --all`
+`git commit -m "Merged feature2 to master"`
+`git push origin master`
+
+
