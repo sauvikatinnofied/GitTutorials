@@ -1,5 +1,5 @@
 # GitTutorials
-:a
+
 Sample Repository to learn git essentials.
 
 ## Basic Set Up Commands
